@@ -1,1 +1,1 @@
-# uniformOddity.github.io
+https://uniformOddity.github.io
