@@ -45,11 +45,9 @@ p {
 a {
     text-decoration: none;
 }
-.giscus {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+.space {
     flex-grow: 1;
+}
+.giscus {
     margin-top: 1em;
-    padding: 2px;
 }
