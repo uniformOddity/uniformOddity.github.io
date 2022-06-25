@@ -1,4 +1,5 @@
 :root {
+    --mail: url("https://cdn.jsdelivr.net/npm/ionicons@5.5.2/dist/svg/mail-outline.svg") no-repeat center;
     --discord: url("https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/discord.svg") no-repeat center;
     --github: url("https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/github.svg") no-repeat center;
     --twitter: url("https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/twitter.svg") no-repeat center;
@@ -20,6 +21,11 @@
     height: 40px;
     width: 40px;
     vertical-align: middle;
+}
+.mail {
+    background-color: #111;
+    -webkit-mask: var(--mail);
+    mask: var(--mail);
 }
 .discord {
     background-color: #5865f2;
