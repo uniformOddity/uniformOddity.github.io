@@ -1,0 +1,49 @@
+:root {
+    --discord: url("https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/discord.svg") no-repeat center;
+    --github: url("https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/github.svg") no-repeat center;
+    --twitter: url("https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/twitter.svg") no-repeat center;
+    --steam: url("https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/steam.svg") no-repeat center;
+    --lastfm: url("https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/lastdotfm.svg") no-repeat center;
+}
+#socials {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 8px;
+}
+#socials > a,
+#socials > span {
+    display: inline-block;
+    padding: 2px;
+}
+.icon {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    vertical-align: middle;
+}
+.discord {
+    background-color: #5865f2;
+    -webkit-mask: var(--discord);
+    mask: var(--discord);
+}
+.github {
+    background-color: #181717;
+    -webkit-mask: var(--github);
+    mask: var(--github);
+}
+.twitter {
+    background-color: #1da1f2;
+    -webkit-mask: var(--twitter);
+    mask: var(--twitter);
+}
+.steam {
+    background-color: #111d2e;
+    background-image: linear-gradient(#111d2e, #051839, #0a1b48, #132e62, #144b7e, #136497, #1387b8);
+    -webkit-mask: var(--steam);
+    mask: var(--steam);
+}
+.lastfm {
+    background-color: #d51007;
+    -webkit-mask: var(--lastfm);
+    mask: var(--lastfm);
+}

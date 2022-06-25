@@ -1,0 +1,46 @@
+:root {
+    --background-color: #eee;
+    --background-image: url("uniformOddity.png");
+    --text-color: #111;
+    --font-size: 20px;
+}
+/* thanks to a friend */
+* {
+    box-sizing: border-box;
+}
+* > :first-child {
+    margin-top: 0;
+}
+* > :last-child {
+    margin-bottom: 0;
+}
+[hidden],
+template {
+    display: none !important;
+}
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+html {
+    background-color: var(--background-color);
+    background-image: var(--background-image);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top center;
+}
+body {
+    min-height: 100vh;
+    color: var(--text-color);
+    font-size: var(--font-size);
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding: 1em;
+}
+p,
+.giscus {
+    margin: 1em 0;
+}
+a {
+    text-decoration: none;
+}
