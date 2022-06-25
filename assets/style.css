@@ -31,16 +31,24 @@ html {
     background-position: top center;
 }
 body {
+    display: flex;
+    flex-direction: column;
     min-height: 100vh;
     color: var(--text-color);
     font-size: var(--font-size);
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     padding: 1em;
 }
-p,
-.giscus {
+p {
     margin: 1em 0;
 }
 a {
     text-decoration: none;
+}
+.giscus {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex-grow: 1;
+    margin-top: 1em;
 }
