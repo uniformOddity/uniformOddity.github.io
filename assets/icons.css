@@ -6,22 +6,6 @@
     --steam: url("https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/steam.svg") no-repeat center;
     --lastfm: url("https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/lastdotfm.svg") no-repeat center;
 }
-#socials {
-    display: inline-flex;
-    flex-direction: column;
-    gap: 8px;
-}
-#socials > a,
-#socials > span {
-    display: inline-block;
-    padding: 2px;
-}
-.icon {
-    display: inline-block;
-    height: 40px;
-    width: 40px;
-    vertical-align: middle;
-}
 .mail {
     background-color: #111;
     -webkit-mask: var(--mail);

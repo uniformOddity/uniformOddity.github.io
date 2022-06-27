@@ -45,8 +45,24 @@ p {
 a {
     text-decoration: none;
 }
-.space {
+#content {
     flex-grow: 1;
+}
+#socials {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 8px;
+}
+#socials > a,
+#socials > span {
+    display: inline-block;
+    padding: 2px;
+}
+.icon {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    vertical-align: middle;
 }
 .giscus {
     margin-top: 1em;
