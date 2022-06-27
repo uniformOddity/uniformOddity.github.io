@@ -45,8 +45,10 @@ p {
 a {
     text-decoration: none;
 }
-#content {
-    flex-grow: 1;
+#description {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1em;
 }
 #socials {
     display: inline-flex;
@@ -57,6 +59,9 @@ a {
 #socials > span {
     display: inline-block;
     padding: 2px;
+}
+.content {
+    flex-grow: 1;
 }
 .icon {
     display: inline-block;
